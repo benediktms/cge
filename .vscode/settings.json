@@ -6,6 +6,12 @@
   "C_Cpp.vcFormat.space.pointerReferenceAlignment": "left",
   "C_Cpp.clang_format_sortIncludes": false,
   "C_Cpp.vcFormat.indent.namespaceContents": true,
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.arguments": [
+    "--background-index",
+    "--clang-tidy",
+    "--header-insertion=never"
+  ],
   "files.associations": {
     "test.h": "c",
     "vulkan.h": "c",

@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "c:/Users/bened/code/cge/engine/src",
+    "command": "clang -g -shared -Wvarargs -Wall -Werror -Iengine/src -I%VULKAN_SDK%/Include -D_DEBUG -DKEXPORT -D_CRT_SECURE_NO_WARNINGS c:/Users/bened/code/cge/engine/src/test.c",
+    "file": "c:/Users/bened/code/cge/engine/src/test.c"
+  },
+  {
+    "directory": "c:/Users/bened/code/cge/testbed/src",
+    "command": "clang -g -Itestbed/src -Iengine/src -D_DEBUG -DKIMPORT c:/Users/bened/code/cge/testbed/src/main.c",
+    "file": "c:/Users/bened/code/cge/testbed/src/main.c"
+  }
+]
